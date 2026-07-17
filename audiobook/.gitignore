@@ -1,0 +1,15 @@
+# Secrets — never commit
+.env
+
+# Generated audio (large binaries)
+audio/
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generation cache
+.cache/

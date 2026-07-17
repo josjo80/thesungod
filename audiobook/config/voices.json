@@ -1,0 +1,9 @@
+{
+  "_comment": "Single-narrator science book. `narrator.voice_id` voices all prose. Kept as a map so the shared generate.py can look voices up by speaker; every segment resolves to `narrator`.",
+  "_default": "narrator",
+  "narrator": {
+    "voice_id": "EkK5I93UQWFDigLMpZcX",
+    "role": "Sole narrator — voices all prose, section headings, and sidebars.",
+    "tier": "cast"
+  }
+}

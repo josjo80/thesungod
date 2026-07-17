@@ -1,0 +1,36 @@
+{
+  "model_id": "eleven_v3",
+  "output_format": "mp3_44100_128",
+  "narrator_voice_id": "EkK5I93UQWFDigLMpZcX",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true
+  },
+  "generation": {
+    "single_narrator": true,
+    "use_request_stitching": false,
+    "cache_by_content_hash": true
+  },
+  "segmentation": {
+    "chapter_glob": "ch*.md",
+    "sidebar_label_as_cue": true,
+    "sidebar_cue": "",
+    "drop_editorial_notes": true,
+    "editorial_note_patterns": ["^Sources to firm up", "^Sources? "]
+  },
+  "assembly": {
+    "loudness_normalize": true,
+    "target_lufs": -19.0,
+    "true_peak_db": -3.0,
+    "block_gap_ms": 400,
+    "heading_gap_ms": 900,
+    "sidebar_gap_ms": 1100,
+    "scene_gap_ms": 1400,
+    "chapter_gap_ms": 1500,
+    "outputs": ["m4b", "per_chapter_mp3"],
+    "book_title": "The Sun God",
+    "author": "Joshua Johnson"
+  }
+}
